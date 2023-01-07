@@ -9,14 +9,24 @@ document.querySelector(".btn-task").onclick = () => {
         <i class="fa-solid fa-trash-can del"></i>
         </div>
         `
-        document.querySelector(".input-area").value=""
+        document.querySelector(".input-area").value = ""
     }
     var elem = document.querySelectorAll(".del");
-    console.log(elem)
+    // console.log(elem)
     for (var i = 0; i < elem.length; i++) {
         elem[i].onclick = function () {
             this.parentNode.remove();
         }
     }
-    // document.querySelector(".addedtsks").value.onclick.setAttribute("id","completed")
+
+    var tasks = document.querySelectorAll(".addedtsks");
+
+    for (var i = 0; i < tasks.length; i++) {
+
+        tasks[i].onclick = function () {
+            this.style.textDecoration = "line-through";
+        }
+    }
+
+
 }

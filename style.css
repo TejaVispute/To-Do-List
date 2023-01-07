@@ -93,7 +93,7 @@ body {
 .tasks>div {
 	margin-top: .7rem;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .addedtsks {
@@ -128,4 +128,8 @@ body {
 		justify-content: center;
 		align-items: flex-start;
 	}
+  }
+
+  #completed{
+	text-decoration: line-through;
   }
