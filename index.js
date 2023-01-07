@@ -18,5 +18,5 @@ document.querySelector(".btn-task").onclick = () => {
             this.parentNode.remove();
         }
     }
-    document.querySelector(".addedtsks").value.onclick.setAttribute("id","completed")
+    // document.querySelector(".addedtsks").value.onclick.setAttribute("id","completed")
 }

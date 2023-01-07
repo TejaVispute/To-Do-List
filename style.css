@@ -15,7 +15,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -26,9 +26,9 @@ body {
 	background-color: white;
 	height: auto;
 	transition: 1s ease-in;
+	width: 70vw;
 	border: 1px solid grey;
-	border-top-left-radius: 2rem;
-	border-top-right-radius: 2rem;
+	border-radius: 2rem;
 }
 
 .heading {
@@ -44,7 +44,7 @@ body {
 .bottom-container {
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 1rem;
+	margin-top: .5rem;
 
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .tasks>div {
-	margin-top: 1rem;
+	margin-top: .7rem;
 	display: flex;
 	justify-content: space-around;
 }
@@ -118,10 +118,14 @@ body {
 	color: red;
 }
 
-
-@media (max-width:600px) {
+@media screen and (min-width: 600px) {
 	.main-container {
-		width: 100vw;
+		width:100vh;
 		height: auto;
 	}
-}
+	.container{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+  }
