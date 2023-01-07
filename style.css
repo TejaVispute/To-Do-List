@@ -94,6 +94,7 @@ body {
 	margin-top: .7rem;
 	display: flex;
 	justify-content: space-evenly;
+	cursor: pointer;
 }
 
 .addedtsks {
