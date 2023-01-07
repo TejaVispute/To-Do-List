@@ -1,0 +1,117 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+	background: url(https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 30px;
+}
+
+.main-container {
+	background-color: white;
+	height: auto;
+	width: 50vw;
+	border: 1px solid grey;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+}
+
+.heading {
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1.5rem;
+	border-bottom: 1px solid grey;
+}
+
+.bottom-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 1rem;
+}
+
+.input {
+	width: 80%;
+}
+
+.btn {
+	width: 10%;
+}
+
+.btn-task {
+	width: 100%;
+	height: 90%;
+	border: 0.1px solid grey;
+	border-radius: 1rem;
+	font-size: 1rem;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
+.input-area {
+	width: 100%;
+	padding: 1rem;
+	border: 0.1px solid grey;
+	border-radius: 1rem;
+	font-size: 1rem;
+}
+
+.btn-task:hover {
+	background-color: green;
+	color: white;
+	transition: 0.4s ease-in;
+}
+
+.tasks {
+	width: 100%;
+	height: auto;
+	padding: 1rem;
+
+
+}
+
+.tasks>div {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.addedtsks {
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 1.5rem;
+	width: 80%;
+	font-weight: bolder;
+	background-color: rgb(203, 202, 202);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.del {
+	padding: 10px;
+	font-size: 1.5rem;
+	width: 10%;
+	cursor: pointer;
+}
+
+.del:hover {
+	color: red;
+}
